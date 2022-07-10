@@ -30,7 +30,8 @@ POST / events
 
 Requset로 오는 데이터를 이용하여 리뷰를 추가/수정/삭제하고 이를 처리된 데이터를 각각의 Reivew, Photo, Point 테이블에 저장합니다.
 
-필요한 데이터가 없거나 리뷰 중복 등, 검증이 필요한 경우, validator을 통해 runtime exception이 일어나도록 했습니다. Response는 모두 ResponseEntity를 통해 처리했습니다.
+필요한 데이터가 없거나 리뷰 중복 등, 검증이 필요한 경우, validator을 통해 runtime exception이 일어나도록 했습니다.
+Response는 모두 ResponseEntity를 통해 처리했습니다.
 
 PK와 FK를 모두 주고 해당 id로만 스캔하였기 때문에, 전체 테이블 스캔이 일어나지 않도록 하였습니다.
 ```
