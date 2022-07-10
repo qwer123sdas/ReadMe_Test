@@ -1,10 +1,10 @@
 # 트래블 클럽 마일리지 적립 과제
 
-## **기술 스택**
+## *개발환경**
 - JAVA 8
-- Spring 5
+- JAVA Spring 5
 - MySQL(8.0)
-- JSP(MyBatis)
+- MyBatis
 
 </br>
 
